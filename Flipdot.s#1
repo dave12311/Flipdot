@@ -82,6 +82,48 @@
 <pad name="P$5" x="0" y="-15" drill="0.8" shape="square"/>
 <pad name="P$6" x="-15" y="-15" drill="0.8" shape="square"/>
 </package>
+<package name="HEADER">
+<pad name="P$1" x="-45" y="5" drill="0.8" shape="square"/>
+<pad name="P$2" x="-40" y="5" drill="0.8" shape="square"/>
+<pad name="P$3" x="-35" y="5" drill="0.8" shape="square"/>
+<pad name="P$4" x="-30" y="5" drill="0.8" shape="square"/>
+<pad name="P$5" x="-25" y="5" drill="0.8" shape="square"/>
+<pad name="P$6" x="-20" y="5" drill="0.8" shape="square"/>
+<pad name="P$7" x="-15" y="5" drill="0.8" shape="square"/>
+<pad name="P$8" x="-10" y="5" drill="0.8" shape="square"/>
+<pad name="P$9" x="-5" y="5" drill="0.8" shape="square"/>
+<pad name="P$10" x="0" y="5" drill="0.8" shape="square"/>
+<pad name="P$11" x="5" y="5" drill="0.8" shape="square"/>
+<pad name="P$12" x="10" y="5" drill="0.8" shape="square"/>
+<pad name="P$13" x="15" y="5" drill="0.8" shape="square"/>
+<pad name="P$14" x="20" y="5" drill="0.8" shape="square"/>
+<pad name="P$15" x="25" y="5" drill="0.8" shape="square"/>
+<pad name="P$16" x="30" y="5" drill="0.8" shape="square"/>
+<pad name="P$17" x="35" y="5" drill="0.8" shape="square"/>
+<pad name="P$18" x="40" y="5" drill="0.8" shape="square"/>
+<pad name="P$19" x="45" y="5" drill="0.8" shape="square"/>
+<pad name="P$20" x="50" y="5" drill="0.8" shape="square"/>
+<pad name="P$21" x="-45" y="-5" drill="0.8" shape="square"/>
+<pad name="P$22" x="-40" y="-5" drill="0.8" shape="square"/>
+<pad name="P$23" x="-35" y="-5" drill="0.8" shape="square"/>
+<pad name="P$24" x="-30" y="-5" drill="0.8" shape="square"/>
+<pad name="P$25" x="-25" y="-5" drill="0.8" shape="square"/>
+<pad name="P$26" x="-20" y="-5" drill="0.8" shape="square"/>
+<pad name="P$27" x="-15" y="-5" drill="0.8" shape="square"/>
+<pad name="P$28" x="-10" y="-5" drill="0.8" shape="square"/>
+<pad name="P$29" x="-5" y="-5" drill="0.8" shape="square"/>
+<pad name="P$30" x="0" y="-5" drill="0.8" shape="square"/>
+<pad name="P$31" x="5" y="-5" drill="0.8" shape="square"/>
+<pad name="P$32" x="10" y="-5" drill="0.8" shape="square"/>
+<pad name="P$33" x="15" y="-5" drill="0.8" shape="square"/>
+<pad name="P$34" x="20" y="-5" drill="0.8" shape="square"/>
+<pad name="P$35" x="25" y="-5" drill="0.8" shape="square"/>
+<pad name="P$36" x="30" y="-5" drill="0.8" shape="square"/>
+<pad name="P$37" x="35" y="-5" drill="0.8" shape="square"/>
+<pad name="P$38" x="40" y="-5" drill="0.8" shape="square"/>
+<pad name="P$39" x="45" y="-5" drill="0.8" shape="square"/>
+<pad name="P$40" x="50" y="-5" drill="0.8" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIXEL">
@@ -132,6 +174,52 @@
 <pin name="P$5" x="0" y="-20" length="middle" rot="R90"/>
 <pin name="P$6" x="20" y="-20" length="middle" rot="R90"/>
 </symbol>
+<symbol name="HEADER">
+<pin name="P$1" x="-45" y="15" length="middle" rot="R270"/>
+<pin name="P$2" x="-40" y="15" length="middle" rot="R270"/>
+<pin name="P$3" x="-35" y="15" length="middle" rot="R270"/>
+<pin name="P$4" x="-30" y="15" length="middle" rot="R270"/>
+<pin name="P$5" x="-25" y="15" length="middle" rot="R270"/>
+<pin name="P$6" x="-20" y="15" length="middle" rot="R270"/>
+<pin name="P$7" x="-15" y="15" length="middle" rot="R270"/>
+<pin name="P$8" x="-10" y="15" length="middle" rot="R270"/>
+<pin name="P$9" x="-5" y="15" length="middle" rot="R270"/>
+<pin name="P$10" x="0" y="15" length="middle" rot="R270"/>
+<pin name="P$11" x="5" y="15" length="middle" rot="R270"/>
+<pin name="P$12" x="10" y="15" length="middle" rot="R270"/>
+<pin name="P$13" x="15" y="15" length="middle" rot="R270"/>
+<pin name="P$14" x="20" y="15" length="middle" rot="R270"/>
+<pin name="P$15" x="25" y="15" length="middle" rot="R270"/>
+<pin name="P$16" x="30" y="15" length="middle" rot="R270"/>
+<pin name="P$17" x="35" y="15" length="middle" rot="R270"/>
+<pin name="P$18" x="40" y="15" length="middle" rot="R270"/>
+<pin name="P$19" x="45" y="15" length="middle" rot="R270"/>
+<pin name="P$20" x="50" y="15" length="middle" rot="R270"/>
+<pin name="P$21" x="-45" y="-10" length="middle" rot="R90"/>
+<pin name="P$22" x="-40" y="-10" length="middle" rot="R90"/>
+<pin name="P$23" x="-35" y="-10" length="middle" rot="R90"/>
+<pin name="P$24" x="-30" y="-10" length="middle" rot="R90"/>
+<pin name="P$25" x="-25" y="-10" length="middle" rot="R90"/>
+<pin name="P$26" x="-20" y="-10" length="middle" rot="R90"/>
+<pin name="P$27" x="-15" y="-10" length="middle" rot="R90"/>
+<pin name="P$28" x="-10" y="-10" length="middle" rot="R90"/>
+<pin name="P$29" x="-5" y="-10" length="middle" rot="R90"/>
+<pin name="P$30" x="0" y="-10" length="middle" rot="R90"/>
+<pin name="P$31" x="5" y="-10" length="middle" rot="R90"/>
+<pin name="P$32" x="10" y="-10" length="middle" rot="R90"/>
+<pin name="P$33" x="15" y="-10" length="middle" rot="R90"/>
+<pin name="P$34" x="20" y="-10" length="middle" rot="R90"/>
+<pin name="P$35" x="25" y="-10" length="middle" rot="R90"/>
+<pin name="P$36" x="30" y="-10" length="middle" rot="R90"/>
+<pin name="P$37" x="35" y="-10" length="middle" rot="R90"/>
+<pin name="P$38" x="40" y="-10" length="middle" rot="R90"/>
+<pin name="P$39" x="45" y="-10" length="middle" rot="R90"/>
+<pin name="P$40" x="50" y="-10" length="middle" rot="R90"/>
+<wire x1="-50" y1="10" x2="-50" y2="-5" width="0.4064" layer="94"/>
+<wire x1="-50" y1="-5" x2="55" y2="-5" width="0.4064" layer="94"/>
+<wire x1="55" y1="-5" x2="55" y2="10" width="0.4064" layer="94"/>
+<wire x1="55" y1="10" x2="-50" y2="10" width="0.4064" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIXEL">
@@ -147,6 +235,60 @@
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="P$5"/>
 <connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER">
+<gates>
+<gate name="G$1" symbol="HEADER" x="-5" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEADER">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="P$15" pad="P$15"/>
+<connect gate="G$1" pin="P$16" pad="P$16"/>
+<connect gate="G$1" pin="P$17" pad="P$17"/>
+<connect gate="G$1" pin="P$18" pad="P$18"/>
+<connect gate="G$1" pin="P$19" pad="P$19"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$20" pad="P$20"/>
+<connect gate="G$1" pin="P$21" pad="P$21"/>
+<connect gate="G$1" pin="P$22" pad="P$22"/>
+<connect gate="G$1" pin="P$23" pad="P$23"/>
+<connect gate="G$1" pin="P$24" pad="P$24"/>
+<connect gate="G$1" pin="P$25" pad="P$25"/>
+<connect gate="G$1" pin="P$26" pad="P$26"/>
+<connect gate="G$1" pin="P$27" pad="P$27"/>
+<connect gate="G$1" pin="P$28" pad="P$28"/>
+<connect gate="G$1" pin="P$29" pad="P$29"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$30" pad="P$30"/>
+<connect gate="G$1" pin="P$31" pad="P$31"/>
+<connect gate="G$1" pin="P$32" pad="P$32"/>
+<connect gate="G$1" pin="P$33" pad="P$33"/>
+<connect gate="G$1" pin="P$34" pad="P$34"/>
+<connect gate="G$1" pin="P$35" pad="P$35"/>
+<connect gate="G$1" pin="P$36" pad="P$36"/>
+<connect gate="G$1" pin="P$37" pad="P$37"/>
+<connect gate="G$1" pin="P$38" pad="P$38"/>
+<connect gate="G$1" pin="P$39" pad="P$39"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$40" pad="P$40"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -334,6 +476,7 @@
 <part name="U$166" library="Flipdot" deviceset="PIXEL" device=""/>
 <part name="U$167" library="Flipdot" deviceset="PIXEL" device=""/>
 <part name="U$168" library="Flipdot" deviceset="PIXEL" device=""/>
+<part name="U$169" library="Flipdot" deviceset="HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -508,6 +651,7 @@
 <instance part="U$166" gate="G$1" x="1785" y="-150"/>
 <instance part="U$167" gate="G$1" x="1785" y="-210"/>
 <instance part="U$168" gate="G$1" x="1785" y="-265"/>
+<instance part="U$169" gate="G$1" x="845" y="335"/>
 </instances>
 <busses>
 </busses>
