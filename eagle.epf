@@ -11,7 +11,7 @@ UsedLibrary="D:/Documents/eagle/projects/DBCon/DBCon.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-8 -8 1911 1008"
+Loc="0 0 1919 1016"
 State=1
 Number=1
 File="Flipdot.sch"
@@ -59,7 +59,7 @@ Sheet="1"
 
 [Win_2]
 Type="Control Panel"
-Loc="-8 -8 1911 1008"
+Loc="0 0 1919 1016"
 State=1
 Number=0
 

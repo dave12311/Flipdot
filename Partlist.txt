@@ -3,3 +3,10 @@ http://lomex.hu/hu/webshop/#/search,86-03-72/stype,1
 
 MUX:
 http://lomex.hu/hu/webshop/#/search,88-01-16/stype,1
+
+
+Source Driver:
+https://www.hestore.hu/prod_10034717.html
+
+Darlington Array:
+https://www.hestore.hu/prod_10022103.html
