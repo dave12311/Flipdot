@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -775,35 +775,7 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <gate name="G$1" symbol="HEADER_26" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HEADER_26">
-<connects>
-<connect gate="G$1" pin="12V" pad="P$11"/>
-<connect gate="G$1" pin="5V" pad="P$12"/>
-<connect gate="G$1" pin="A" pad="P$21"/>
-<connect gate="G$1" pin="B" pad="P$22"/>
-<connect gate="G$1" pin="C" pad="P$23"/>
-<connect gate="G$1" pin="EA" pad="P$8"/>
-<connect gate="G$1" pin="EB" pad="P$9"/>
-<connect gate="G$1" pin="EC" pad="P$10"/>
-<connect gate="G$1" pin="EE2" pad="P$24"/>
-<connect gate="G$1" pin="EE3" pad="P$25"/>
-<connect gate="G$1" pin="EE4" pad="P$26"/>
-<connect gate="G$1" pin="GND" pad="P$13"/>
-<connect gate="G$1" pin="R1H" pad="P$20"/>
-<connect gate="G$1" pin="R1L" pad="P$7"/>
-<connect gate="G$1" pin="R2H" pad="P$19"/>
-<connect gate="G$1" pin="R2L" pad="P$6"/>
-<connect gate="G$1" pin="R3H" pad="P$18"/>
-<connect gate="G$1" pin="R3L" pad="P$5"/>
-<connect gate="G$1" pin="R4H" pad="P$17"/>
-<connect gate="G$1" pin="R4L" pad="P$4"/>
-<connect gate="G$1" pin="R5H" pad="P$16"/>
-<connect gate="G$1" pin="R5L" pad="P$3"/>
-<connect gate="G$1" pin="R6H" pad="P$15"/>
-<connect gate="G$1" pin="R6L" pad="P$2"/>
-<connect gate="G$1" pin="R7H" pad="P$14"/>
-<connect gate="G$1" pin="R7L" pad="P$1"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -160,7 +160,7 @@
 </layers>
 <library>
 <packages>
-<package name="HEADER_40">
+<package name="HEADER">
 <pad name="P$1" x="-45" y="5" drill="0.8" shape="square"/>
 <pad name="P$2" x="-40" y="5" drill="0.8" shape="square"/>
 <pad name="P$3" x="-35" y="5" drill="0.8" shape="square"/>
@@ -361,37 +361,9 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <rectangle x1="4.826" y1="3.8608" x2="5.334" y2="5.334" layer="51"/>
 <rectangle x1="4.826" y1="-5.334" x2="5.334" y2="-3.8608" layer="51"/>
 </package>
-<package name="HEADER_26">
-<pad name="P$1" x="-27.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$2" x="-22.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$3" x="-17.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$4" x="-12.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$5" x="-7.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$6" x="-2.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$7" x="2.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$8" x="7.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$9" x="12.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$10" x="17.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$11" x="22.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$12" x="27.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$13" x="32.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$14" x="-27.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$15" x="-22.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$16" x="-17.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$17" x="-12.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$18" x="-7.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$19" x="-2.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$20" x="2.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$21" x="7.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$22" x="12.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$23" x="17.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$24" x="22.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$25" x="27.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$26" x="32.78" y="-5" drill="0.8" shape="square"/>
-</package>
 </packages>
 <symbols>
-<symbol name="HEADER_40">
+<symbol name="HEADER">
 <pin name="R7L" x="-48.26" y="12.7" length="middle" rot="R270"/>
 <pin name="R6L" x="-43.18" y="12.7" length="middle" rot="R270"/>
 <pin name="R5L" x="-38.1" y="12.7" length="middle" rot="R270"/>
@@ -542,38 +514,6 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <wire x1="7.46" y1="27.46" x2="-7.54" y2="27.46" width="0.254" layer="94"/>
 <text x="-6.524" y="-30.908" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
-<symbol name="HEADER_26">
-<pin name="R7L" x="-30.48" y="12.7" length="middle" rot="R270"/>
-<pin name="R6L" x="-25.4" y="12.7" length="middle" rot="R270"/>
-<pin name="R5L" x="-20.32" y="12.7" length="middle" rot="R270"/>
-<pin name="R4L" x="-15.24" y="12.7" length="middle" rot="R270"/>
-<pin name="R3L" x="-10.16" y="12.7" length="middle" rot="R270"/>
-<pin name="R2L" x="-5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="R1L" x="0" y="12.7" length="middle" rot="R270"/>
-<pin name="EA" x="5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="EB" x="10.16" y="12.7" length="middle" rot="R270"/>
-<pin name="EC" x="15.24" y="12.7" length="middle" rot="R270"/>
-<pin name="12V" x="20.32" y="12.7" length="middle" rot="R270"/>
-<pin name="5V" x="25.4" y="12.7" length="middle" rot="R270"/>
-<pin name="GND" x="30.48" y="12.7" length="middle" rot="R270"/>
-<pin name="EE4" x="30.48" y="-12.7" length="middle" rot="R90"/>
-<pin name="EE3" x="25.4" y="-12.7" length="middle" rot="R90"/>
-<pin name="EE2" x="20.32" y="-12.7" length="middle" rot="R90"/>
-<pin name="C" x="15.24" y="-12.7" length="middle" rot="R90"/>
-<pin name="B" x="10.16" y="-12.7" length="middle" rot="R90"/>
-<pin name="A" x="5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="R1H" x="0" y="-12.7" length="middle" rot="R90"/>
-<pin name="R2H" x="-5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="R3H" x="-10.16" y="-12.7" length="middle" rot="R90"/>
-<pin name="R4H" x="-15.24" y="-12.7" length="middle" rot="R90"/>
-<pin name="R5H" x="-20.32" y="-12.7" length="middle" rot="R90"/>
-<pin name="R6H" x="-25.4" y="-12.7" length="middle" rot="R90"/>
-<pin name="R7H" x="-30.48" y="-12.7" length="middle" rot="R90"/>
-<wire x1="-33.02" y1="-7.62" x2="-33.02" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="7.62" x2="33.02" y2="7.62" width="0.254" layer="94"/>
-<wire x1="33.02" y1="7.62" x2="33.02" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-7.62" x2="-33.02" y2="-7.62" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SPARKFUN_PRO_MICRO" prefix="MC">
@@ -716,12 +656,12 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER_40">
+<deviceset name="HEADER">
 <gates>
-<gate name="G$1" symbol="HEADER_40" x="0" y="0"/>
+<gate name="G$1" symbol="HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HEADER_40">
+<device name="" package="HEADER">
 <connects>
 <connect gate="G$1" pin="C1" pad="P$29"/>
 <connect gate="G$1" pin="C10" pad="P$13"/>
@@ -762,46 +702,6 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <connect gate="G$1" pin="R6H" pad="P$22"/>
 <connect gate="G$1" pin="R6L" pad="P$2"/>
 <connect gate="G$1" pin="R7H" pad="P$21"/>
-<connect gate="G$1" pin="R7L" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HEADER_26">
-<gates>
-<gate name="G$1" symbol="HEADER_26" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HEADER_26">
-<connects>
-<connect gate="G$1" pin="12V" pad="P$11"/>
-<connect gate="G$1" pin="5V" pad="P$12"/>
-<connect gate="G$1" pin="A" pad="P$21"/>
-<connect gate="G$1" pin="B" pad="P$22"/>
-<connect gate="G$1" pin="C" pad="P$23"/>
-<connect gate="G$1" pin="EA" pad="P$8"/>
-<connect gate="G$1" pin="EB" pad="P$9"/>
-<connect gate="G$1" pin="EC" pad="P$10"/>
-<connect gate="G$1" pin="EE2" pad="P$24"/>
-<connect gate="G$1" pin="EE3" pad="P$25"/>
-<connect gate="G$1" pin="EE4" pad="P$26"/>
-<connect gate="G$1" pin="GND" pad="P$13"/>
-<connect gate="G$1" pin="R1H" pad="P$20"/>
-<connect gate="G$1" pin="R1L" pad="P$7"/>
-<connect gate="G$1" pin="R2H" pad="P$19"/>
-<connect gate="G$1" pin="R2L" pad="P$6"/>
-<connect gate="G$1" pin="R3H" pad="P$18"/>
-<connect gate="G$1" pin="R3L" pad="P$5"/>
-<connect gate="G$1" pin="R4H" pad="P$17"/>
-<connect gate="G$1" pin="R4L" pad="P$4"/>
-<connect gate="G$1" pin="R5H" pad="P$16"/>
-<connect gate="G$1" pin="R5L" pad="P$3"/>
-<connect gate="G$1" pin="R6H" pad="P$15"/>
-<connect gate="G$1" pin="R6L" pad="P$2"/>
-<connect gate="G$1" pin="R7H" pad="P$14"/>
 <connect gate="G$1" pin="R7L" pad="P$1"/>
 </connects>
 <technologies>
