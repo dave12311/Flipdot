@@ -982,6 +982,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R7H"/>
 <wire x1="142.24" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="58.42" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
+<junction x="144.78" y="58.42"/>
+<label x="180.34" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R6H" class="0">
@@ -990,6 +993,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R6H"/>
 <wire x1="142.24" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="53.34" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<junction x="149.86" y="53.34"/>
+<label x="180.34" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R5H" class="0">
@@ -998,6 +1004,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R5H"/>
 <wire x1="142.24" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="48.26" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<junction x="154.94" y="48.26"/>
+<label x="180.34" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R4H" class="0">
@@ -1006,6 +1015,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R4H"/>
 <wire x1="142.24" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="43.18" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
+<junction x="160.02" y="43.18"/>
+<label x="180.34" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R3H" class="0">
@@ -1014,6 +1026,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R3H"/>
 <wire x1="142.24" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="38.1" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="38.1" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
+<junction x="165.1" y="38.1"/>
+<label x="180.34" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R2H" class="0">
@@ -1022,6 +1037,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R2H"/>
 <wire x1="142.24" y1="33.02" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="33.02" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="170.18" y="33.02"/>
+<label x="180.34" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R1H" class="0">
@@ -1030,6 +1048,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R1H"/>
 <wire x1="142.24" y1="27.94" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="27.94" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="27.94" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
+<junction x="175.26" y="27.94"/>
+<label x="180.34" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R1L" class="0">
@@ -1038,6 +1059,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R1L"/>
 <wire x1="139.7" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="157.48" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<junction x="175.26" y="157.48"/>
+<label x="177.8" y="157.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R2L" class="0">
@@ -1046,6 +1070,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R2L"/>
 <wire x1="139.7" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="152.4" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
+<junction x="170.18" y="152.4"/>
+<label x="177.8" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R3L" class="0">
@@ -1054,6 +1081,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R3L"/>
 <wire x1="139.7" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="147.32" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
+<junction x="165.1" y="147.32"/>
+<label x="177.8" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R4L" class="0">
@@ -1062,6 +1092,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R4L"/>
 <wire x1="139.7" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="142.24" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
+<junction x="160.02" y="142.24"/>
+<label x="177.8" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R5L" class="0">
@@ -1070,6 +1103,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R5L"/>
 <wire x1="139.7" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="137.16" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<junction x="154.94" y="137.16"/>
+<label x="177.8" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R6L" class="0">
@@ -1078,6 +1114,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R6L"/>
 <wire x1="139.7" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="132.08" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<junction x="149.86" y="132.08"/>
+<label x="177.8" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R7L" class="0">
@@ -1086,6 +1125,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R7L"/>
 <wire x1="139.7" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="127" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<junction x="144.78" y="127"/>
+<label x="180.34" y="127" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="C24" class="0">
@@ -2916,6 +2958,8 @@ DIN A4, landscape with location and doc. field</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,4,96.52,154.94,MCU1,RAW,12V,,,"/>
+<approved hash="104,4,96.52,147.32,MCU1,VCC,5V,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,3,91.971,132.611,FRAME3,,,,,"/>
 <approved hash="113,2,91.971,132.611,FRAME2,,,,,"/>
