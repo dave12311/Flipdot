@@ -1,6 +1,9 @@
 MUX:
 http://lomex.hu/hu/webshop/#/search,87-04-75/stype,1
 
+2-4 Decoder:
+http://lomex.hu/hu/webshop/#/search,87-02-82/stype,1
+
 Source Driver:
 https://www.hestore.hu/prod_10034717.html
 
