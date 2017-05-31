@@ -588,6 +588,7 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="-10.16" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -825,7 +826,7 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="74AC139SC">
+<deviceset name="74AC139SC" prefix="IC">
 <description>2-4 Line Decoder</description>
 <gates>
 <gate name="G$1" symbol="74AC139SC" x="0" y="0"/>
