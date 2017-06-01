@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -164,46 +164,46 @@
 <library name="Flipdot">
 <packages>
 <package name="HEADER_40">
-<pad name="P$1" x="-45" y="5" drill="0.8" shape="square"/>
-<pad name="P$2" x="-40" y="5" drill="0.8" shape="square"/>
-<pad name="P$3" x="-35" y="5" drill="0.8" shape="square"/>
-<pad name="P$4" x="-30" y="5" drill="0.8" shape="square"/>
-<pad name="P$5" x="-25" y="5" drill="0.8" shape="square"/>
-<pad name="P$6" x="-20" y="5" drill="0.8" shape="square"/>
-<pad name="P$7" x="-15" y="5" drill="0.8" shape="square"/>
-<pad name="P$8" x="-10" y="5" drill="0.8" shape="square"/>
-<pad name="P$9" x="-5" y="5" drill="0.8" shape="square"/>
-<pad name="P$10" x="0" y="5" drill="0.8" shape="square"/>
-<pad name="P$11" x="5" y="5" drill="0.8" shape="square"/>
-<pad name="P$12" x="10" y="5" drill="0.8" shape="square"/>
-<pad name="P$13" x="15" y="5" drill="0.8" shape="square"/>
-<pad name="P$14" x="20" y="5" drill="0.8" shape="square"/>
-<pad name="P$15" x="25" y="5" drill="0.8" shape="square"/>
-<pad name="P$16" x="30" y="5" drill="0.8" shape="square"/>
-<pad name="P$17" x="35" y="5" drill="0.8" shape="square"/>
-<pad name="P$18" x="40" y="5" drill="0.8" shape="square"/>
-<pad name="P$19" x="45" y="5" drill="0.8" shape="square"/>
-<pad name="P$20" x="50" y="5" drill="0.8" shape="square"/>
-<pad name="P$21" x="-45" y="-5" drill="0.8" shape="square"/>
-<pad name="P$22" x="-40" y="-5" drill="0.8" shape="square"/>
-<pad name="P$23" x="-35" y="-5" drill="0.8" shape="square"/>
-<pad name="P$24" x="-30" y="-5" drill="0.8" shape="square"/>
-<pad name="P$25" x="-25" y="-5" drill="0.8" shape="square"/>
-<pad name="P$26" x="-20" y="-5" drill="0.8" shape="square"/>
-<pad name="P$27" x="-15" y="-5" drill="0.8" shape="square"/>
-<pad name="P$28" x="-10" y="-5" drill="0.8" shape="square"/>
-<pad name="P$29" x="-5" y="-5" drill="0.8" shape="square"/>
-<pad name="P$30" x="0" y="-5" drill="0.8" shape="square"/>
-<pad name="P$31" x="5" y="-5" drill="0.8" shape="square"/>
-<pad name="P$32" x="10" y="-5" drill="0.8" shape="square"/>
-<pad name="P$33" x="15" y="-5" drill="0.8" shape="square"/>
-<pad name="P$34" x="20" y="-5" drill="0.8" shape="square"/>
-<pad name="P$35" x="25" y="-5" drill="0.8" shape="square"/>
-<pad name="P$36" x="30" y="-5" drill="0.8" shape="square"/>
-<pad name="P$37" x="35" y="-5" drill="0.8" shape="square"/>
-<pad name="P$38" x="40" y="-5" drill="0.8" shape="square"/>
-<pad name="P$39" x="45" y="-5" drill="0.8" shape="square"/>
-<pad name="P$40" x="50" y="-5" drill="0.8" shape="square"/>
+<pad name="P$1" x="-22.86" y="0" drill="1" shape="square"/>
+<pad name="P$2" x="-20.32" y="0" drill="1" shape="square"/>
+<pad name="P$3" x="-17.78" y="0" drill="1" shape="square"/>
+<pad name="P$4" x="-15.24" y="0" drill="1" shape="square"/>
+<pad name="P$5" x="-12.7" y="0" drill="1" shape="square"/>
+<pad name="P$6" x="-10.16" y="0" drill="1" shape="square"/>
+<pad name="P$7" x="-7.62" y="0" drill="1" shape="square"/>
+<pad name="P$8" x="-5.08" y="0" drill="1" shape="square"/>
+<pad name="P$9" x="-2.54" y="0" drill="1" shape="square"/>
+<pad name="P$10" x="0" y="0" drill="1" shape="square"/>
+<pad name="P$11" x="2.54" y="0" drill="1" shape="square"/>
+<pad name="P$12" x="5.08" y="0" drill="1" shape="square"/>
+<pad name="P$13" x="7.62" y="0" drill="1" shape="square"/>
+<pad name="P$14" x="10.16" y="0" drill="1" shape="square"/>
+<pad name="P$15" x="12.7" y="0" drill="1" shape="square"/>
+<pad name="P$16" x="15.24" y="0" drill="1" shape="square"/>
+<pad name="P$17" x="17.78" y="0" drill="1" shape="square"/>
+<pad name="P$18" x="20.32" y="0" drill="1" shape="square"/>
+<pad name="P$19" x="22.86" y="0" drill="1" shape="square"/>
+<pad name="P$20" x="25.4" y="0" drill="1" shape="square"/>
+<pad name="P$21" x="-22.86" y="-2.54" drill="1" shape="square"/>
+<pad name="P$22" x="-20.32" y="-2.54" drill="1" shape="square"/>
+<pad name="P$23" x="-17.78" y="-2.54" drill="1" shape="square"/>
+<pad name="P$24" x="-15.24" y="-2.54" drill="1" shape="square"/>
+<pad name="P$25" x="-12.7" y="-2.54" drill="1" shape="square"/>
+<pad name="P$26" x="-10.16" y="-2.54" drill="1" shape="square"/>
+<pad name="P$27" x="-7.62" y="-2.54" drill="1" shape="square"/>
+<pad name="P$28" x="-5.08" y="-2.54" drill="1" shape="square"/>
+<pad name="P$29" x="-2.54" y="-2.54" drill="1" shape="square"/>
+<pad name="P$30" x="0" y="-2.54" drill="1" shape="square"/>
+<pad name="P$31" x="2.54" y="-2.54" drill="1" shape="square"/>
+<pad name="P$32" x="5.08" y="-2.54" drill="1" shape="square"/>
+<pad name="P$33" x="7.62" y="-2.54" drill="1" shape="square"/>
+<pad name="P$34" x="10.16" y="-2.54" drill="1" shape="square"/>
+<pad name="P$35" x="12.7" y="-2.54" drill="1" shape="square"/>
+<pad name="P$36" x="15.24" y="-2.54" drill="1" shape="square"/>
+<pad name="P$37" x="17.78" y="-2.54" drill="1" shape="square"/>
+<pad name="P$38" x="20.32" y="-2.54" drill="1" shape="square"/>
+<pad name="P$39" x="22.86" y="-2.54" drill="1" shape="square"/>
+<pad name="P$40" x="25.4" y="-2.54" drill="1" shape="square"/>
 </package>
 <package name="SO18W">
 <description>&lt;b&gt;18-Lead Plastic Small Outline (SO) - Wide, 300 mil (SOIC)&lt;/b&gt;&lt;p&gt;
@@ -387,6 +387,20 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <pad name="P$24" x="22.78" y="-5" drill="0.8" shape="square"/>
 <pad name="P$25" x="27.78" y="-5" drill="0.8" shape="square"/>
 <pad name="P$26" x="32.78" y="-5" drill="0.8" shape="square"/>
+</package>
+<package name="PS">
+<smd name="P$1" x="-3" y="6" dx="4" dy="4" layer="1"/>
+<wire x1="-8" y1="10" x2="-8" y2="-11" width="0.127" layer="48"/>
+<smd name="P$2" x="3" y="6" dx="4" dy="4" layer="1"/>
+<smd name="P$3" x="-3" y="-7" dx="4" dy="4" layer="1"/>
+<smd name="P$4" x="3" y="-7" dx="4" dy="4" layer="1"/>
+<wire x1="-8" y1="10" x2="7" y2="10" width="0.127" layer="48"/>
+<wire x1="7" y1="10" x2="7" y2="-11" width="0.127" layer="48"/>
+<wire x1="7" y1="-11" x2="-8" y2="-11" width="0.127" layer="48"/>
+<wire x1="-9" y1="2" x2="-7" y2="2" width="0.127" layer="48"/>
+<wire x1="-7" y1="2" x2="-7" y2="-3" width="0.127" layer="48"/>
+<wire x1="-7" y1="-3" x2="-9" y2="-3" width="0.127" layer="48"/>
+<wire x1="-9" y1="-3" x2="-9" y2="2" width="0.127" layer="48"/>
 </package>
 </packages>
 <symbols>
@@ -584,6 +598,14 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <wire x1="7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
 <text x="-5.08" y="-10.16" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="PS">
+<pin name="12V" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -841,6 +863,22 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PS">
+<gates>
+<gate name="G$1" symbol="PS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PS">
+<connects>
+<connect gate="G$1" pin="12V" pad="P$1 P$2"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
@@ -959,6 +997,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="MCU1" library="Flipdot" deviceset="SPARKFUN_PRO_MICRO" device=""/>
 <part name="J2" library="Flipdot" deviceset="HEADER_26" device=""/>
 <part name="IC21" library="Flipdot" deviceset="74AC139SC" device=""/>
+<part name="U$1" library="Flipdot" deviceset="PS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -972,6 +1011,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="IC19" gate="G$1" x="76.2" y="144.78"/>
 <instance part="IC20" gate="G$1" x="76.2" y="45.72"/>
+<instance part="U$1" gate="G$1" x="208.28" y="154.94" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1249,6 +1289,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="63.5" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="48.26" y="22.86"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="215.9" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
+<label x="223.52" y="157.48" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -1506,6 +1551,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
 <wire x1="116.84" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <label x="111.76" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="12V"/>
+<wire x1="215.9" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
+<label x="223.52" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

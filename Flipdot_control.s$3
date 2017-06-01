@@ -346,13 +346,9 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <pad name="11" x="-7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
 <pad name="12" x="-7.62" y="-15.24" drill="1.016" diameter="1.8796"/>
 <pad name="13" x="7.62" y="-15.24" drill="1.016" diameter="1.8796"/>
-<pad name="14" x="7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
-<pad name="15" x="7.62" y="-10.16" drill="1.016" diameter="1.8796"/>
-<pad name="16" x="7.62" y="-7.62" drill="1.016" diameter="1.8796"/>
 <pad name="17" x="7.62" y="-5.08" drill="1.016" diameter="1.8796"/>
 <pad name="18" x="7.62" y="-2.54" drill="1.016" diameter="1.8796"/>
 <pad name="19" x="7.62" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="20" x="7.62" y="2.54" drill="1.016" diameter="1.8796"/>
 <pad name="21" x="7.62" y="5.08" drill="1.016" diameter="1.8796"/>
 <pad name="22" x="7.62" y="7.62" drill="1.016" diameter="1.8796"/>
 <pad name="23" x="7.62" y="10.16" drill="1.016" diameter="1.8796"/>
@@ -528,13 +524,9 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <pin name="8" x="-10.16" y="-10.16" length="short"/>
 <pin name="*9" x="-10.16" y="-12.7" length="short"/>
 <pin name="*10" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="11(MOSI)" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="12(MISO)" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="13(SCK)" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="A0" x="12.7" y="-2.54" length="short" rot="R180"/>
 <pin name="A1" x="12.7" y="0" length="short" rot="R180"/>
 <pin name="A2" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="A3" x="12.7" y="5.08" length="short" rot="R180"/>
 <pin name="GND" x="-10.16" y="7.62" length="short" direction="pwr"/>
 <pin name="GND@2" x="12.7" y="12.7" length="short" direction="pwr" rot="R180"/>
 <pin name="RAW" x="12.7" y="15.24" length="short" direction="pwr" rot="R180"/>
@@ -763,9 +755,6 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <connect gate="G$1" pin="*5" pad="8"/>
 <connect gate="G$1" pin="*6" pad="9"/>
 <connect gate="G$1" pin="*9" pad="12"/>
-<connect gate="G$1" pin="11(MOSI)" pad="14"/>
-<connect gate="G$1" pin="12(MISO)" pad="15"/>
-<connect gate="G$1" pin="13(SCK)" pad="16"/>
 <connect gate="G$1" pin="2" pad="5"/>
 <connect gate="G$1" pin="4" pad="7"/>
 <connect gate="G$1" pin="7" pad="10"/>
@@ -773,7 +762,6 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <connect gate="G$1" pin="A0" pad="17"/>
 <connect gate="G$1" pin="A1" pad="18"/>
 <connect gate="G$1" pin="A2" pad="19"/>
-<connect gate="G$1" pin="A3" pad="20"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="GND@1" pad="3"/>
 <connect gate="G$1" pin="GND@2" pad="23"/>
@@ -994,6 +982,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R7H"/>
 <wire x1="142.24" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="58.42" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
+<junction x="144.78" y="58.42"/>
+<label x="180.34" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R6H" class="0">
@@ -1002,6 +993,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R6H"/>
 <wire x1="142.24" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="53.34" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<junction x="149.86" y="53.34"/>
+<label x="180.34" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R5H" class="0">
@@ -1010,6 +1004,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R5H"/>
 <wire x1="142.24" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="48.26" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<junction x="154.94" y="48.26"/>
+<label x="180.34" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R4H" class="0">
@@ -1018,6 +1015,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R4H"/>
 <wire x1="142.24" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="43.18" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
+<junction x="160.02" y="43.18"/>
+<label x="180.34" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R3H" class="0">
@@ -1026,6 +1026,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R3H"/>
 <wire x1="142.24" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="38.1" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="38.1" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
+<junction x="165.1" y="38.1"/>
+<label x="180.34" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R2H" class="0">
@@ -1034,6 +1037,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R2H"/>
 <wire x1="142.24" y1="33.02" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="33.02" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="170.18" y="33.02"/>
+<label x="180.34" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R1H" class="0">
@@ -1042,6 +1048,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R1H"/>
 <wire x1="142.24" y1="27.94" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="27.94" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="27.94" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
+<junction x="175.26" y="27.94"/>
+<label x="180.34" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R1L" class="0">
@@ -1050,6 +1059,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R1L"/>
 <wire x1="139.7" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="157.48" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<junction x="175.26" y="157.48"/>
+<label x="177.8" y="157.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R2L" class="0">
@@ -1058,6 +1070,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R2L"/>
 <wire x1="139.7" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="152.4" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
+<junction x="170.18" y="152.4"/>
+<label x="177.8" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R3L" class="0">
@@ -1066,6 +1081,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R3L"/>
 <wire x1="139.7" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="147.32" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
+<junction x="165.1" y="147.32"/>
+<label x="177.8" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R4L" class="0">
@@ -1074,6 +1092,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R4L"/>
 <wire x1="139.7" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="142.24" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
+<junction x="160.02" y="142.24"/>
+<label x="177.8" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R5L" class="0">
@@ -1082,6 +1103,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R5L"/>
 <wire x1="139.7" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="137.16" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<junction x="154.94" y="137.16"/>
+<label x="177.8" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R6L" class="0">
@@ -1090,6 +1114,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R6L"/>
 <wire x1="139.7" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="132.08" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<junction x="149.86" y="132.08"/>
+<label x="177.8" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R7L" class="0">
@@ -1098,6 +1125,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="R7L"/>
 <wire x1="139.7" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="127" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<junction x="144.78" y="127"/>
+<label x="180.34" y="127" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="C24" class="0">
@@ -2928,9 +2958,8 @@ DIN A4, landscape with location and doc. field</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,4,93.98,119.38,MCU1,RAW,12V,,,"/>
-<approved hash="104,4,93.98,111.76,MCU1,VCC,5V,,,"/>
-<approved hash="106,4,93.98,119.38,12V,,,,,"/>
+<approved hash="104,4,96.52,154.94,MCU1,RAW,12V,,,"/>
+<approved hash="104,4,96.52,147.32,MCU1,VCC,5V,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,3,91.971,132.611,FRAME3,,,,,"/>
 <approved hash="113,2,91.971,132.611,FRAME2,,,,,"/>
