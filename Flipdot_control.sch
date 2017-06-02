@@ -361,32 +361,32 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <text x="-1.27" y="16.51" size="0.8128" layer="51" font="vector" ratio="20">USB</text>
 </package>
 <package name="HEADER_26">
-<pad name="P$1" x="-27.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$2" x="-22.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$3" x="-17.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$4" x="-12.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$5" x="-7.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$6" x="-2.22" y="5" drill="0.8" shape="square"/>
-<pad name="P$7" x="2.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$8" x="7.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$9" x="12.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$10" x="17.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$11" x="22.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$12" x="27.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$13" x="32.78" y="5" drill="0.8" shape="square"/>
-<pad name="P$14" x="-27.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$15" x="-22.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$16" x="-17.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$17" x="-12.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$18" x="-7.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$19" x="-2.22" y="-5" drill="0.8" shape="square"/>
-<pad name="P$20" x="2.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$21" x="7.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$22" x="12.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$23" x="17.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$24" x="22.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$25" x="27.78" y="-5" drill="0.8" shape="square"/>
-<pad name="P$26" x="32.78" y="-5" drill="0.8" shape="square"/>
+<pad name="P$1" x="-15.24" y="1.27" drill="1" shape="square"/>
+<pad name="P$2" x="-12.7" y="1.27" drill="1" shape="square"/>
+<pad name="P$3" x="-10.16" y="1.27" drill="1" shape="square"/>
+<pad name="P$4" x="-7.62" y="1.27" drill="1" shape="square"/>
+<pad name="P$5" x="-5.08" y="1.27" drill="1" shape="square"/>
+<pad name="P$6" x="-2.54" y="1.27" drill="1" shape="square"/>
+<pad name="P$7" x="0" y="1.27" drill="1" shape="square"/>
+<pad name="P$8" x="2.54" y="1.27" drill="1" shape="square"/>
+<pad name="P$9" x="5.08" y="1.27" drill="1" shape="square"/>
+<pad name="P$10" x="7.62" y="1.27" drill="1" shape="square"/>
+<pad name="P$11" x="10.16" y="1.27" drill="1" shape="square"/>
+<pad name="P$12" x="12.7" y="1.27" drill="1" shape="square"/>
+<pad name="P$13" x="15.24" y="1.27" drill="1" shape="square"/>
+<pad name="P$14" x="-15.24" y="-1.27" drill="1" shape="square"/>
+<pad name="P$15" x="-12.7" y="-1.27" drill="1" shape="square"/>
+<pad name="P$16" x="-10.16" y="-1.27" drill="1" shape="square"/>
+<pad name="P$17" x="-7.62" y="-1.27" drill="1" shape="square"/>
+<pad name="P$18" x="-5.08" y="-1.27" drill="1" shape="square"/>
+<pad name="P$19" x="-2.54" y="-1.27" drill="1" shape="square"/>
+<pad name="P$20" x="0" y="-1.27" drill="1" shape="square"/>
+<pad name="P$21" x="2.54" y="-1.27" drill="1" shape="square"/>
+<pad name="P$22" x="5.08" y="-1.27" drill="1" shape="square"/>
+<pad name="P$23" x="7.62" y="-1.27" drill="1" shape="square"/>
+<pad name="P$24" x="10.16" y="-1.27" drill="1" shape="square"/>
+<pad name="P$25" x="12.7" y="-1.27" drill="1" shape="square"/>
+<pad name="P$26" x="15.24" y="-1.27" drill="1" shape="square"/>
 </package>
 <package name="PS">
 <smd name="P$1" x="-3" y="6" dx="4" dy="4" layer="1"/>
