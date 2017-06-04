@@ -1179,7 +1179,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J2" gate="G$1" pin="EE3"/>
 <wire x1="99.06" y1="83.82" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="EE3"/>
-<wire x1="99.06" y1="43.18" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EE4" class="0">
@@ -1187,7 +1187,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J2" gate="G$1" pin="EE4"/>
 <wire x1="104.14" y1="83.82" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="EE4"/>
-<wire x1="104.14" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">

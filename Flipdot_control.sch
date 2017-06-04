@@ -359,6 +359,10 @@ Source: http://www.rfsolutions.co.uk/acatalog/DS601-4.pdf</description>
 <wire x1="-3.81" y1="17.78" x2="3.81" y2="17.78" width="0.127" layer="51"/>
 <wire x1="3.81" y1="17.78" x2="3.81" y2="16.51" width="0.127" layer="51"/>
 <text x="-1.27" y="16.51" size="0.8128" layer="51" font="vector" ratio="20">USB</text>
+<pad name="P$1" x="7.62" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="P$2" x="7.62" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="P$3" x="7.62" y="-10.16" drill="1.016" diameter="1.8796"/>
+<pad name="P$4" x="7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
 </package>
 <package name="HEADER_26">
 <pad name="P$1" x="-15.24" y="1.27" drill="1" shape="square"/>
