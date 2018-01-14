@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 04 01"
+Version="08 05 00"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -11,11 +11,9 @@ UsedLibrary="Flipdot.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 0 1919 1016"
-State=3
 Number=1
 File="Flipdot_control.sch"
-View="47.4907 66.2465 204.669 174.506"
+View="94.0891 41.2653 186.854 174.795"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -54,16 +52,14 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 65.0244 -0.991131 157.789 132.539 2: 22.5415 8.20141 156.123 200.485 4: 47.4907 66.2465 204.669 174.506"
-Sheet="4"
+Views=" 1: 94.0891 41.2653 186.854 174.795 2: 22.5415 8.20141 156.123 200.485 3: 60.8215 58.2207 138.125 169.496 4: 34.2522 39.8225 143.404 115.003"
+Sheet="1"
 
 [Win_2]
 Type="Control Panel"
-Loc="0 0 1919 1000"
-State=1
 Number=0
 
 [Desktop]
-Screen="3840 1080"
+Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
