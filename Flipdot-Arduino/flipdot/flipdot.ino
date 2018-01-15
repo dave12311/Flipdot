@@ -43,27 +43,59 @@ void resetPins(){
   bitClear(PORTE, 6);
 }
 
+void setPins(){
+  bitSet(PORTB, 4);
+  bitSet(PORTB, 5);
+  bitSet(PORTB, 6);
+
+  bitSet(PORTC, 6);
+
+  bitSet(PORTD, 0);
+  bitSet(PORTD, 1);
+  bitSet(PORTD, 4);
+  bitSet(PORTD, 7);
+
+  bitSet(PORTE, 6);
+}
+
 void setPixel(bool state, unsigned int x, unsigned int y){
-  int number = y*24+x*9;    //First bit of the coordinate's 9bit   BYTES INSTEAD OF BITS!!    !TODO!
+  int number = y*24+x;
   if(state==true){
-    number+=1512;
     digitalWrite(A0, LOW);
   } else {
     digitalWrite(A0, HIGH);
+    number+=168;
   }
 
-  bitWrite(PORTB, 4, bitRead(EEPROM.read(number), 0));
-  bitWrite(PORTB, 5, bitRead(EEPROM.read(number), 1));
-  bitWrite(PORTB, 6, bitRead(EEPROM.read(number), 2));
-  
-  bitWrite(PORTC, 6, bitRead(EEPROM.read(number), 3));
-  
-  bitWrite(PORTD, 0, bitRead(EEPROM.read(number), 4));
-  bitWrite(PORTD, 1, bitRead(EEPROM.read(number), 5));
-  bitWrite(PORTD, 4, bitRead(EEPROM.read(number), 6));
-  bitWrite(PORTD, 7, bitRead(EEPROM.read(number), 7));
+  int byteNumber = number + int(number/8);
 
-  bitWrite(PORTE, 6, EEPROM.read(number+8));
+  int bitNumber = number % 9;
+
+  bool values[9];
+
+  int increment = 0;
+  for(int a=bitNumber;a>=0;a--){
+    values[increment] = bitRead(EEPROM.read(byteNumber), a);
+    increment++;
+  }
+
+  for(int b=7;b>=bitNumber;b--){
+    values[increment] = bitRead(EEPROM.read(byteNumber+1), b);
+    increment++;
+  }
+
+  bitWrite(PORTB, 4, values[0]);
+  bitWrite(PORTB, 5, values[1]);
+  bitWrite(PORTB, 6, values[2]);
+  
+  bitWrite(PORTC, 6, values[3]);
+  
+  bitWrite(PORTD, 0, values[4]);
+  bitWrite(PORTD, 1, values[5]);
+  bitWrite(PORTD, 4, values[6]);
+  bitWrite(PORTD, 7, values[7]);
+  
+  bitWrite(PORTE, 6, values[8]);
 
   //delay(DELAY);
 
@@ -71,7 +103,6 @@ void setPixel(bool state, unsigned int x, unsigned int y){
 }
 
 void setup(){
-  Serial.begin(9600);
   //Set pins as outputs
   DDRB = DDRB | B01110000;
   DDRC = DDRC | B01000000;
