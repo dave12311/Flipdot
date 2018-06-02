@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 05 00"
+Version="08 05 02"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -8,12 +8,57 @@ Desktop="Desktop"
 AutoSaveProject=1
 UsedLibraryUrn="urn:adsk.eagle:library:229"
 UsedLibrary="Flipdot.lbr"
+UsedLibrary="Layout.lbr"
 
 [Win_1]
+Type="Library Editor"
+Number=2
+File="Layout.lbr"
+View="-23.8049 -12.6594 18.7249 24.8514"
+WireWidths=" 0.0762 0.1016 0.15 0.2 0.2032 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524 0.127 0.254"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
+ViaDiameters=" 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 1.3 0"
+ViaDrills=" 0.2 0.25 0.3 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 1 0.35"
+HoleDrills=" 0.2 0.25 0.3 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 1 0.35"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=1
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=2
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=94
+
+[Win_2]
 Type="Schematic Editor"
 Number=1
 File="Flipdot_control.sch"
-View="94.0891 41.2653 186.854 174.795"
+View="36.2181 13.7574 262.555 169.652"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -52,14 +97,15 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 94.0891 41.2653 186.854 174.795 2: 22.5415 8.20141 156.123 200.485 3: 60.8215 58.2207 138.125 169.496 4: 34.2522 39.8225 143.404 115.003"
-Sheet="1"
+Views=" 1: 44.6913 51.5741 233.305 181.486 2: 68.5486 136.826 161.313 270.356 3: 85.4168 73.1816 196.734 233.417 4: 36.2181 13.7574 262.555 169.652"
+Sheet="4"
 
-[Win_2]
+[Win_3]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3840 1080"
 Window="Win_1"
 Window="Win_2"
+Window="Win_3"
