@@ -334,7 +334,7 @@
 <wire x1="-4" y1="-1" x2="-4" y2="1" width="0.127" layer="21"/>
 </package>
 <package name="4_PIN">
-<pad name="P$1" x="-2.54" y="0" drill="1" shape="square"/>
+<pad name="P$1" x="-2.54" y="0" drill="1" diameter="1.778"/>
 <pad name="P$2" x="0" y="0" drill="1" shape="square"/>
 <pad name="P$3" x="2.54" y="0" drill="1" shape="square"/>
 <wire x1="-4" y1="1" x2="6.54" y2="1" width="0.127" layer="21"/>

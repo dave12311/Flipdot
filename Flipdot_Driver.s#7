@@ -745,10 +745,10 @@
 <sheet>
 <description>Driver circuit</description>
 <plain>
-<text x="-27.94" y="5.08" size="1.778" layer="91">2</text>
-<text x="-27.94" y="2.54" size="1.778" layer="91">3</text>
-<text x="-27.94" y="0" size="1.778" layer="91">4</text>
-<text x="-30.48" y="7.62" size="1.778" layer="91">MCU</text>
+<text x="-20.32" y="5.08" size="1.778" layer="91">2</text>
+<text x="-20.32" y="2.54" size="1.778" layer="91">3</text>
+<text x="-20.32" y="0" size="1.778" layer="91">4</text>
+<text x="-22.86" y="7.62" size="1.778" layer="91">MCU</text>
 <text x="-27.94" y="-10.16" size="1.778" layer="91">5</text>
 <text x="-27.94" y="-12.7" size="1.778" layer="91">6</text>
 <text x="-27.94" y="-15.24" size="1.778" layer="91">7</text>

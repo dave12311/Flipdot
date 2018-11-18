@@ -547,13 +547,13 @@ SparkFun Pro Micro
 <wire x1="-50.8" y1="-7.62" x2="-50.8" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 <symbol name="3_PIN">
-<pin name="1" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="1" x="-5.08" y="5.08" visible="pin" length="middle"/>
 <pin name="2" x="-5.08" y="0" visible="pin" length="middle"/>
-<pin name="3" x="-5.08" y="-2.54" visible="pin" length="middle"/>
-<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pin" length="middle"/>
+<wire x1="0" y1="-7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
 <symbol name="4_PIN">
 <pin name="1" x="-5.08" y="2.54" visible="pin" length="middle"/>

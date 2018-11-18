@@ -356,8 +356,6 @@
 <wire x1="-11" y1="6" x2="11" y2="6" width="0.127" layer="21"/>
 <wire x1="11" y1="6" x2="11" y2="-6" width="0.127" layer="21"/>
 <wire x1="11" y1="-6" x2="-11" y2="-6" width="0.127" layer="21"/>
-<wire x1="-9" y1="3" x2="-8" y2="3" width="0.127" layer="1"/>
-<wire x1="-8" y1="3" x2="-9" y2="3" width="0.127" layer="1"/>
 </package>
 <package name="POWER">
 <pad name="A" x="-2.54" y="0" drill="1" shape="square"/>

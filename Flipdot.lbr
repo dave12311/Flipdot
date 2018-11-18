@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -344,18 +344,22 @@
 <pad name="P$4" x="5.08" y="0" drill="1" shape="square"/>
 </package>
 <package name="JUMPER">
-<smd name="X1" x="-9" y="3" dx="3" dy="5" layer="1"/>
-<smd name="S1" x="-9" y="-3" dx="3" dy="5" layer="1"/>
-<smd name="X2" x="-3" y="3" dx="3" dy="5" layer="1"/>
-<smd name="S2" x="-3" y="-3" dx="3" dy="5" layer="1"/>
-<smd name="X3" x="3" y="3" dx="3" dy="5" layer="1"/>
-<smd name="S3" x="3" y="-3" dx="3" dy="5" layer="1"/>
-<smd name="X4" x="9" y="3" dx="3" dy="5" layer="1"/>
-<smd name="S4" x="9" y="-3" dx="3" dy="5" layer="1"/>
-<wire x1="-11" y1="-6" x2="-11" y2="6" width="0.127" layer="21"/>
-<wire x1="-11" y1="6" x2="11" y2="6" width="0.127" layer="21"/>
-<wire x1="11" y1="6" x2="11" y2="-6" width="0.127" layer="21"/>
-<wire x1="11" y1="-6" x2="-11" y2="-6" width="0.127" layer="21"/>
+<smd name="X1" x="-3.7874" y="1.922" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="S1" x="-3.7564" y="-1.888" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="X2" x="-1.2474" y="1.9276" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="S2" x="-1.2418" y="-1.9078" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="X3" x="1.2926" y="1.9332" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="S3" x="1.2982" y="-1.8768" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="X4" x="3.8326" y="1.9388" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="S4" x="3.8382" y="-1.8966" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<wire x1="-5.2596" y1="-4.0696" x2="-5.2596" y2="4.1204" width="0.127" layer="21"/>
+<wire x1="-5.2596" y1="4.1204" x2="5.3104" y2="4.1204" width="0.127" layer="21"/>
+<wire x1="5.3104" y1="4.1204" x2="5.3104" y2="-4.0696" width="0.127" layer="21"/>
+<wire x1="5.3104" y1="-4.0696" x2="-5.2596" y2="-4.0696" width="0.127" layer="21"/>
+<text x="-4.191" y="4.4196" size="1.27" layer="121">1</text>
+<text x="-0.6604" y="5.6896" size="1.27" layer="121" rot="R180">2</text>
+<text x="1.778" y="5.715" size="1.27" layer="121" rot="R180">3</text>
+<text x="4.3434" y="5.6134" size="1.27" layer="121" rot="R180">4</text>
 </package>
 <package name="POWER">
 <pad name="A" x="-2.54" y="0" drill="1" shape="square"/>
