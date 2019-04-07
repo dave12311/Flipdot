@@ -485,6 +485,7 @@ SparkFun Pro Micro
 <part name="U$4" library="Flipdot" deviceset="3_PIN" device=""/>
 <part name="U$5" library="Flipdot" deviceset="3_PIN" device=""/>
 <part name="U$6" library="Flipdot" deviceset="3_PIN" device=""/>
+<part name="U$7" library="Flipdot" deviceset="3_PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -497,6 +498,7 @@ SparkFun Pro Micro
 <instance part="U$4" gate="G$1" x="-10.16" y="-27.94"/>
 <instance part="U$5" gate="G$1" x="-58.42" y="7.62" rot="MR0"/>
 <instance part="U$6" gate="G$1" x="-68.58" y="-7.62" rot="MR0"/>
+<instance part="U$7" gate="G$1" x="30.48" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -514,6 +516,11 @@ SparkFun Pro Micro
 <wire x1="-5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="-5.08" y="33.02"/>
 <label x="-17.78" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="20.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -534,6 +541,11 @@ SparkFun Pro Micro
 <pinref part="U$1" gate="G$1" pin="GND1"/>
 <wire x1="2.54" y1="27.94" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
 <label x="2.54" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
+<label x="20.32" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -654,6 +666,13 @@ SparkFun Pro Micro
 <pinref part="U$6" gate="G$1" pin="3"/>
 <pinref part="U$1" gate="G$1" pin="7"/>
 <wire x1="-63.5" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="10V" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="3"/>
+<wire x1="25.4" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<label x="20.32" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

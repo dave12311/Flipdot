@@ -166,12 +166,12 @@
 <wire x1="146.065" y1="0.16" x2="146.065" y2="76.03" width="0" layer="20"/>
 <wire x1="146.065" y1="76.03" x2="0.035" y2="76.03" width="0" layer="20"/>
 <wire x1="0.035" y1="76.03" x2="0.035" y2="0.16" width="0" layer="20"/>
-<text x="127.635" y="6.096" size="1.4224" layer="51">MCU  8  9  10</text>
 <text x="113.665" y="68.58" size="1.4224" layer="51">GND  5V  10V</text>
 <text x="18.161" y="2.921" size="1.4224" layer="51" rot="R90">MCU 2  3  4</text>
 <text x="2.54" y="52.07" size="1.4224" layer="51">MCU 5  6  7</text>
 <text x="26.543" y="37.592" size="1.778" layer="51">The cake is a lie.</text>
 <text x="11.049" y="69.85" size="1.4224" layer="51">Seg. Sel.</text>
+<text x="127.889" y="2.286" size="1.4224" layer="25">MCU 8  9  10 A0</text>
 </plain>
 <libraries>
 <library name="Flipdot">
@@ -622,10 +622,10 @@ design rules under a new name.</description>
 <element name="U$1" library="Flipdot" package="HEADER_40" value="HEADER_40" x="83.895" y="38.23" smashed="yes" rot="MR0"/>
 <element name="U$2" library="Flipdot" package="3_PIN" value="3_PIN" x="15.495" y="10.83" smashed="yes" rot="R90"/>
 <element name="U$3" library="Flipdot" package="3_PIN" value="3_PIN" x="6.615" y="49.66" smashed="yes"/>
-<element name="U$4" library="Flipdot" package="3_PIN" value="3_PIN" x="136.371" y="8.852" smashed="yes" rot="R180"/>
 <element name="U$10" library="Flipdot" package="JUMPER" value="JUMPER" x="14.665" y="63.5" smashed="yes" rot="R270"/>
 <element name="U$11" library="Flipdot" package="4_PIN" value="4_PIN" x="5.967" y="64.611" smashed="yes" rot="R270"/>
 <element name="U$5" library="Flipdot" package="3_PIN" value="3_PIN" x="120.615" y="66.58" smashed="yes"/>
+<element name="U$6" library="Flipdot" package="4_PIN" value="4_PIN" x="138.43" y="5.08" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="SEG_1">
@@ -826,6 +826,18 @@ design rules under a new name.</description>
 <wire x1="3.155" y1="27.02" x2="1.266" y2="25.131" width="0.254" layer="16"/>
 <wire x1="3.155" y1="19.5808625" x2="3.155" y2="19.4" width="0.254" layer="16"/>
 <wire x1="1.266" y1="21.4698625" x2="3.155" y2="19.5808625" width="0.254" layer="16"/>
+<polygon width="0.254" layer="1">
+<vertex x="0" y="76.2"/>
+<vertex x="146.05" y="76.2"/>
+<vertex x="146.05" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.254" layer="16">
+<vertex x="0" y="0"/>
+<vertex x="0" y="76.2"/>
+<vertex x="146.05" y="76.2"/>
+<vertex x="146.05" y="0"/>
+</polygon>
 </signal>
 <signal name="5V">
 <contactref element="SUBSEG" pad="16"/>
@@ -1753,40 +1765,42 @@ design rules under a new name.</description>
 <signal name="N$62">
 <contactref element="ROW_L" pad="1"/>
 <contactref element="ROW_H" pad="1"/>
-<contactref element="U$4" pad="P$3"/>
-<wire x1="133.831" y1="8.852" x2="137.922" y2="12.943" width="0.254" layer="1"/>
 <wire x1="137.922" y1="31.815" x2="141.209" y2="35.102" width="0.254" layer="1"/>
-<wire x1="137.922" y1="12.943" x2="137.922" y2="31.815" width="0.254" layer="1"/>
 <wire x1="140.271" y1="59.8231375" x2="140.271" y2="60.004" width="0.254" layer="1"/>
 <wire x1="136.906" y1="39.405" x2="136.906" y2="56.4581375" width="0.254" layer="1"/>
 <wire x1="136.906" y1="56.4581375" x2="140.271" y2="59.8231375" width="0.254" layer="1"/>
 <wire x1="141.209" y1="35.102" x2="136.906" y2="39.405" width="0.254" layer="1"/>
+<contactref element="U$6" pad="P$4"/>
+<wire x1="133.35" y1="5.08" x2="137.922" y2="9.652" width="0.254" layer="1"/>
+<wire x1="137.922" y1="9.652" x2="137.922" y2="31.815" width="0.254" layer="1"/>
 </signal>
 <signal name="N$63">
 <contactref element="ROW_L" pad="2"/>
 <contactref element="ROW_H" pad="2"/>
-<contactref element="U$4" pad="P$2"/>
-<wire x1="136.371" y1="8.852" x2="138.557" y2="11.038" width="0.254" layer="1"/>
 <wire x1="138.557" y1="29.91" x2="141.209" y2="32.562" width="0.254" layer="1"/>
-<wire x1="138.557" y1="11.038" x2="138.557" y2="29.91" width="0.254" layer="1"/>
+<wire x1="138.557" y1="11.038" x2="138.557" y2="11.43" width="0.254" layer="1"/>
+<wire x1="138.557" y1="11.43" x2="138.557" y2="29.91" width="0.254" layer="1"/>
 <wire x1="141.209" y1="32.562" x2="143.256" y2="34.609" width="0.254" layer="16"/>
 <wire x1="143.256" y1="34.609" x2="143.256" y2="47.879" width="0.254" layer="16"/>
 <via x="143.256" y="47.879" extent="1-16" drill="0.35"/>
 <wire x1="143.256" y1="47.879" x2="143.256" y2="54.479" width="0.254" layer="1"/>
 <wire x1="143.256" y1="54.479" x2="140.271" y2="57.464" width="0.254" layer="1"/>
+<contactref element="U$6" pad="P$3"/>
+<wire x1="135.89" y1="5.08" x2="138.557" y2="7.747" width="0.254" layer="1"/>
+<wire x1="138.557" y1="7.747" x2="138.557" y2="11.038" width="0.254" layer="1"/>
 </signal>
 <signal name="N$64">
 <contactref element="ROW_L" pad="3"/>
 <contactref element="ROW_H" pad="3"/>
-<contactref element="U$4" pad="P$1"/>
 <wire x1="141.232" y1="29.999" x2="141.209" y2="30.022" width="0.254" layer="16"/>
-<wire x1="139.165" y1="27.978" x2="139.165" y2="9.106" width="0.254" layer="1"/>
-<wire x1="138.911" y1="8.852" x2="139.165" y2="9.106" width="0.254" layer="1"/>
 <wire x1="139.165" y1="27.978" x2="141.209" y2="30.022" width="0.254" layer="1"/>
 <wire x1="141.232" y1="30.2258625" x2="141.232" y2="29.999" width="0.254" layer="16"/>
 <wire x1="144.368" y1="33.3618625" x2="141.232" y2="30.2258625" width="0.254" layer="16"/>
 <wire x1="144.368" y1="50.827" x2="144.368" y2="33.3618625" width="0.254" layer="16"/>
 <wire x1="140.271" y1="54.924" x2="144.368" y2="50.827" width="0.254" layer="16"/>
+<contactref element="U$6" pad="P$2"/>
+<wire x1="138.43" y1="5.08" x2="139.165" y2="5.815" width="0.254" layer="1"/>
+<wire x1="139.165" y1="5.815" x2="139.165" y2="27.978" width="0.254" layer="1"/>
 </signal>
 <signal name="N$65">
 <contactref element="ROW_L" pad="6"/>
@@ -1795,6 +1809,11 @@ design rules under a new name.</description>
 <wire x1="143.256" y1="29.529" x2="143.256" y2="45.466" width="0.254" layer="1"/>
 <wire x1="143.256" y1="45.466" x2="141.418" y2="47.304" width="0.254" layer="1"/>
 <wire x1="141.418" y1="47.304" x2="140.271" y2="47.304" width="0.254" layer="1"/>
+<contactref element="U$6" pad="P$1"/>
+<wire x1="141.209" y1="27.482" x2="141.209" y2="27.3011375" width="0.254" layer="1"/>
+<wire x1="141.209" y1="27.3011375" x2="143.098" y2="25.4121375" width="0.254" layer="1"/>
+<wire x1="143.098" y1="25.4121375" x2="143.098" y2="7.208" width="0.254" layer="1"/>
+<wire x1="143.098" y1="7.208" x2="140.97" y2="5.08" width="0.254" layer="1"/>
 </signal>
 <signal name="N$66">
 <contactref element="ROW_L" pad="14"/>
@@ -2024,6 +2043,16 @@ design rules under a new name.</description>
 <contactref element="SUBSEG" pad="3"/>
 <wire x1="3.155" y1="32.1" x2="9.155" y2="38.1" width="0.254" layer="1"/>
 <wire x1="9.155" y1="38.1" x2="9.155" y2="49.66" width="0.254" layer="1"/>
+</signal>
+<signal name="CUT">
+<polygon width="0.254" layer="1" pour="cutout">
+<vertex x="10.668" y="58.166"/>
+<vertex x="18.796" y="58.166"/>
+<vertex x="18.796" y="68.58"/>
+<vertex x="18.796" y="68.707"/>
+<vertex x="10.668" y="68.707"/>
+<vertex x="10.668" y="58.293"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

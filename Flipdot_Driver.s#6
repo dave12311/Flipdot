@@ -740,6 +740,7 @@
 <part name="U$4" library="Flipdot" deviceset="3_PIN" device=""/>
 <part name="U$10" library="Flipdot" deviceset="JUMPER" device=""/>
 <part name="U$11" library="Flipdot" deviceset="4_PIN" device=""/>
+<part name="U$5" library="Flipdot" deviceset="3_PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -749,10 +750,10 @@
 <text x="-20.32" y="2.54" size="1.778" layer="91">3</text>
 <text x="-20.32" y="0" size="1.778" layer="91">4</text>
 <text x="-22.86" y="7.62" size="1.778" layer="91">MCU</text>
-<text x="-27.94" y="-10.16" size="1.778" layer="91">5</text>
-<text x="-27.94" y="-12.7" size="1.778" layer="91">6</text>
-<text x="-27.94" y="-15.24" size="1.778" layer="91">7</text>
-<text x="-33.02" y="-7.62" size="1.778" layer="91">MCU</text>
+<text x="-55.88" y="-121.92" size="1.778" layer="91">5</text>
+<text x="-55.88" y="-124.46" size="1.778" layer="91">6</text>
+<text x="-55.88" y="-127" size="1.778" layer="91">7</text>
+<text x="-58.42" y="-119.38" size="1.778" layer="91">MCU</text>
 <text x="55.88" y="35.56" size="1.778" layer="91">8</text>
 <text x="55.88" y="33.02" size="1.778" layer="91">9</text>
 <text x="55.88" y="30.48" size="1.778" layer="91">10</text>
@@ -785,6 +786,7 @@
 <instance part="U$4" gate="G$1" x="68.58" y="33.02" rot="R180"/>
 <instance part="U$10" gate="G$1" x="-81.28" y="-144.78"/>
 <instance part="U$11" gate="G$1" x="-114.3" y="-144.78" rot="MR0"/>
+<instance part="U$5" gate="G$1" x="-22.86" y="-40.64" rot="MR0"/>
 </instances>
 <busses>
 <bus name="CODE3WIRE:A,B,C">
@@ -1010,6 +1012,11 @@
 <wire x1="160.02" y1="-7.62" x2="152.4" y2="-7.62" width="0.1524" layer="91"/>
 <label x="152.4" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="-35.56" x2="-12.7" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-12.7" y="-35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -1066,6 +1073,11 @@
 <pinref part="ROW_H" gate="G$1" pin="VCC"/>
 <wire x1="132.08" y1="-15.24" x2="139.7" y2="-15.24" width="0.1524" layer="91"/>
 <label x="139.7" y="-15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="-40.64" x2="-12.7" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-12.7" y="-40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -1265,6 +1277,11 @@
 <pinref part="SOURCE_R" gate="G$1" pin="VS"/>
 <wire x1="160.02" y1="-66.04" x2="152.4" y2="-66.04" width="0.1524" layer="91"/>
 <label x="152.4" y="-66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="3"/>
+<wire x1="-17.78" y1="-45.72" x2="-12.7" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-12.7" y="-45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">

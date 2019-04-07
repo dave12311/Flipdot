@@ -739,10 +739,10 @@
 <part name="SOURCE_R" library="Flipdot" deviceset="UDN2981A" device="" package3d_urn="urn:adsk.eagle:package:16424/2"/>
 <part name="U$2" library="Flipdot" deviceset="3_PIN" device=""/>
 <part name="U$3" library="Flipdot" deviceset="3_PIN" device=""/>
-<part name="U$4" library="Flipdot" deviceset="3_PIN" device=""/>
 <part name="U$10" library="Flipdot" deviceset="JUMPER" device=""/>
 <part name="U$11" library="Flipdot" deviceset="4_PIN" device=""/>
 <part name="U$5" library="Flipdot" deviceset="3_PIN" device=""/>
+<part name="U$6" library="Flipdot" deviceset="4_PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -756,10 +756,11 @@
 <text x="-55.88" y="-124.46" size="1.778" layer="91">6</text>
 <text x="-55.88" y="-127" size="1.778" layer="91">7</text>
 <text x="-58.42" y="-119.38" size="1.778" layer="91">MCU</text>
-<text x="55.88" y="35.56" size="1.778" layer="91">8</text>
-<text x="55.88" y="33.02" size="1.778" layer="91">9</text>
-<text x="55.88" y="30.48" size="1.778" layer="91">10</text>
-<text x="53.34" y="38.1" size="1.778" layer="91">MCU</text>
+<text x="35.56" y="35.56" size="1.778" layer="91">8</text>
+<text x="35.56" y="33.02" size="1.778" layer="91">9</text>
+<text x="35.56" y="30.48" size="1.778" layer="91">10</text>
+<text x="33.02" y="38.1" size="1.778" layer="91">MCU</text>
+<text x="35.56" y="22.86" size="1.778" layer="91">A0</text>
 </plain>
 <instances>
 <instance part="SUBSEG" gate="G$1" x="-15.24" y="-137.16" smashed="yes" rot="R270">
@@ -825,10 +826,10 @@
 </instance>
 <instance part="U$2" gate="G$1" x="-33.02" y="2.54" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="-43.18" y="-124.46" smashed="yes" rot="MR0"/>
-<instance part="U$4" gate="G$1" x="68.58" y="33.02" smashed="yes" rot="R180"/>
 <instance part="U$10" gate="G$1" x="-81.28" y="-144.78" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="-114.3" y="-144.78" smashed="yes" rot="MR0"/>
 <instance part="U$5" gate="G$1" x="-22.86" y="-40.64" smashed="yes" rot="MR0"/>
+<instance part="U$6" gate="G$1" x="48.26" y="30.48" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 <bus name="CODE3WIRE:A,B,C">
@@ -2035,9 +2036,9 @@
 <wire x1="88.9" y1="38.1" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="ROW_H" gate="G$1" pin="A0"/>
 <wire x1="88.9" y1="-15.24" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <junction x="88.9" y="38.1"/>
+<pinref part="U$6" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -2047,9 +2048,9 @@
 <wire x1="86.36" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="33.02" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-20.32" x2="106.68" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <junction x="86.36" y="33.02"/>
+<pinref part="U$6" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -2059,9 +2060,9 @@
 <wire x1="83.82" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="27.94" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-25.4" x2="106.68" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <junction x="83.82" y="27.94"/>
+<pinref part="U$6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -2070,7 +2071,13 @@
 <wire x1="106.68" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="ROW_H" gate="G$1" pin="!E1"/>
 <wire x1="106.68" y1="-30.48" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-30.48" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-30.48" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-7.62" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="-7.62"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="-7.62" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">

@@ -166,8 +166,12 @@
 <wire x1="146.065" y1="0.16" x2="146.065" y2="76.03" width="0" layer="20"/>
 <wire x1="146.065" y1="76.03" x2="0.035" y2="76.03" width="0" layer="20"/>
 <wire x1="0.035" y1="76.03" x2="0.035" y2="0.16" width="0" layer="20"/>
-<text x="127.635" y="6.096" size="1.4224" layer="51">MCU  8  9  10</text>
-<text x="113.665" y="68.58" size="1.4224" layer="51">GND  5V  10V</text>
+<text x="127.635" y="6.096" size="1.4224" layer="25">MCU  8  9  10</text>
+<text x="113.665" y="68.58" size="1.4224" layer="25">GND  5V  10V</text>
+<text x="18.161" y="2.921" size="1.4224" layer="25" rot="R90">MCU 2  3  4</text>
+<text x="2.54" y="52.07" size="1.4224" layer="25">MCU 5  6  7</text>
+<text x="26.543" y="37.592" size="1.778" layer="25">The cake is a lie.</text>
+<text x="11.049" y="69.85" size="1.4224" layer="25">Seg. Sel.</text>
 </plain>
 <libraries>
 <library name="Flipdot">

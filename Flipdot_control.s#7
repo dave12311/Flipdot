@@ -484,6 +484,7 @@ SparkFun Pro Micro
 <part name="U$3" library="Flipdot" deviceset="4_PIN" device=""/>
 <part name="U$4" library="Flipdot" deviceset="3_PIN" device=""/>
 <part name="U$5" library="Flipdot" deviceset="3_PIN" device=""/>
+<part name="U$6" library="Flipdot" deviceset="3_PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -494,7 +495,8 @@ SparkFun Pro Micro
 <instance part="U$2" gate="G$1" x="20.32" y="5.08" rot="R270"/>
 <instance part="U$3" gate="G$1" x="50.8" y="5.08"/>
 <instance part="U$4" gate="G$1" x="-10.16" y="-27.94"/>
-<instance part="U$5" gate="G$1" x="-63.5" y="7.62" rot="MR0"/>
+<instance part="U$5" gate="G$1" x="-58.42" y="7.62" rot="MR0"/>
+<instance part="U$6" gate="G$1" x="-68.58" y="-7.62" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -616,21 +618,42 @@ SparkFun Pro Micro
 <segment>
 <pinref part="U$5" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="-58.42" y1="7.62" x2="-48.26" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="7.62" x2="-48.26" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="3"/>
 <pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="-58.42" y1="2.54" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="2.54" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="5"/>
+<wire x1="-63.5" y1="-2.54" x2="-48.26" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="6"/>
+<wire x1="-63.5" y1="-7.62" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="3"/>
+<pinref part="U$1" gate="G$1" pin="7"/>
+<wire x1="-63.5" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
