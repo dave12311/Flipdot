@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -164,51 +164,6 @@
 <libraries>
 <library name="Flipdot">
 <packages>
-<package name="SPARKFUN_PRO_MICRO" urn="urn:adsk.eagle:footprint:37258/1">
-<description>&lt;h3&gt;SparkFun Pro Mico Footprint (with USB connector)&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 24&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
-&lt;li&gt;Area:0.7x1.3"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;SparkFun Pro Micro&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-8.89" y1="16.51" x2="-8.89" y2="-16.51" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-16.51" x2="8.89" y2="-16.51" width="0.127" layer="51"/>
-<wire x1="8.89" y1="-16.51" x2="8.89" y2="16.51" width="0.127" layer="51"/>
-<wire x1="8.89" y1="16.51" x2="-8.89" y2="16.51" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="16.51" x2="-3.81" y2="17.78" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="17.78" x2="3.81" y2="17.78" width="0.127" layer="51"/>
-<wire x1="3.81" y1="17.78" x2="3.81" y2="16.51" width="0.127" layer="51"/>
-<pad name="1" x="-7.62" y="12.7" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="-7.62" y="10.16" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-7.62" y="7.62" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="-7.62" y="5.08" drill="1.016" diameter="1.8796"/>
-<pad name="5" x="-7.62" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="6" x="-7.62" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="7" x="-7.62" y="-2.54" drill="1.016" diameter="1.8796"/>
-<pad name="8" x="-7.62" y="-5.08" drill="1.016" diameter="1.8796"/>
-<pad name="9" x="-7.62" y="-7.62" drill="1.016" diameter="1.8796"/>
-<pad name="10" x="-7.62" y="-10.16" drill="1.016" diameter="1.8796"/>
-<pad name="11" x="-7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
-<pad name="12" x="-7.62" y="-15.24" drill="1.016" diameter="1.8796"/>
-<pad name="13" x="7.62" y="-15.24" drill="1.016" diameter="1.8796"/>
-<pad name="14" x="7.62" y="-12.7" drill="1.016" diameter="1.8796"/>
-<pad name="15" x="7.62" y="-10.16" drill="1.016" diameter="1.8796"/>
-<pad name="16" x="7.62" y="-7.62" drill="1.016" diameter="1.8796"/>
-<pad name="17" x="7.62" y="-5.08" drill="1.016" diameter="1.8796"/>
-<pad name="18" x="7.62" y="-2.54" drill="1.016" diameter="1.8796"/>
-<pad name="19" x="7.62" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="20" x="7.62" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="21" x="7.62" y="5.08" drill="1.016" diameter="1.8796"/>
-<pad name="22" x="7.62" y="7.62" drill="1.016" diameter="1.8796"/>
-<pad name="23" x="7.62" y="10.16" drill="1.016" diameter="1.8796"/>
-<pad name="24" x="7.62" y="12.7" drill="1.016" diameter="1.8796"/>
-<text x="0" y="18.034" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-16.764" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-1.27" y="16.51" size="0.8128" layer="51" font="vector" ratio="20">USB</text>
-</package>
 <package name="DIL16" urn="urn:adsk.eagle:footprint:28935/1" locally_modified="yes">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
@@ -260,22 +215,47 @@
 <pad name="B" x="0" y="0" drill="1" shape="square"/>
 <pad name="C" x="2.54" y="0" drill="1" shape="square"/>
 </package>
+<package name="DIL28" urn="urn:adsk.eagle:footprint:771/1" locally_modified="yes">
+<description>&lt;b&gt;Dual In Line Package Small&lt;/b&gt;</description>
+<wire x1="17.78" y1="2.921" x2="-17.78" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-2.921" x2="17.78" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="2.921" x2="17.78" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="2.921" x2="-17.78" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-2.921" x2="-17.78" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="1.016" x2="-17.78" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-16.51" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="16.51" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="16.51" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="25" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="26" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="27" x="-13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="28" x="-16.51" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-18.034" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-8.509" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
-<package3d name="SPARKFUN_PRO_MICRO" urn="urn:adsk.eagle:package:37326/1" type="box">
-<description>SparkFun Pro Mico Footprint (with USB connector)
-Specifications:
-Pin count: 24
-Pin pitch: 0.1"
-Area:0.7x1.3"
-
-Example device(s):
-SparkFun Pro Micro
-</description>
-<packageinstances>
-<packageinstance name="SPARKFUN_PRO_MICRO"/>
-</packageinstances>
-</package3d>
 <package3d name="DIL16" urn="urn:adsk.eagle:package:28986/2" locally_modified="yes" type="model">
 <description>Dual In Line Package</description>
 <packageinstances>
@@ -284,37 +264,6 @@ SparkFun Pro Micro
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MCU">
-<pin name="RAW" x="-27.94" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="GND1" x="-22.86" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="RST" x="-17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="VCC" x="-12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="A3" x="-7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="A2" x="-2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="A1" x="2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="A0" x="7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="15" x="12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="14" x="17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="16" x="22.86" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="10" x="27.94" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="TX" x="-27.94" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="RX" x="-22.86" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="GND3" x="-17.78" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="GND2" x="-12.7" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="2" x="-7.62" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="3" x="-2.54" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="4" x="2.54" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="5" x="7.62" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="6" x="12.7" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="7" x="17.78" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="8" x="22.86" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<pin name="9" x="27.94" y="-12.7" visible="pin" length="middle" rot="R90"/>
-<wire x1="-30.48" y1="-7.62" x2="-30.48" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="7.62" x2="30.48" y2="7.62" width="0.254" layer="94"/>
-<wire x1="30.48" y1="7.62" x2="30.48" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-7.62" x2="-30.48" y2="-7.62" width="0.254" layer="94"/>
-<rectangle x1="-33.02" y1="-2.54" x2="-30.48" y2="2.54" layer="94"/>
-</symbol>
 <symbol name="DEMUX">
 <pin name="VCC" x="-17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
 <pin name="Y0" x="-12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
@@ -369,49 +318,45 @@ SparkFun Pro Micro
 <wire x1="7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
 <wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
+<symbol name="ATMEGA328P">
+<pin name="PC6" x="-15.24" y="30.48" length="middle"/>
+<pin name="PD0" x="-15.24" y="25.4" length="middle"/>
+<pin name="PD1" x="-15.24" y="20.32" length="middle"/>
+<pin name="PD2" x="-15.24" y="15.24" length="middle"/>
+<pin name="PD3" x="-15.24" y="10.16" length="middle"/>
+<pin name="PD4" x="-15.24" y="5.08" length="middle"/>
+<pin name="VCC" x="-15.24" y="0" length="middle"/>
+<pin name="GND1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PB6" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PB7" x="-15.24" y="-15.24" length="middle"/>
+<pin name="PD5" x="-15.24" y="-20.32" length="middle"/>
+<pin name="PD6" x="-15.24" y="-25.4" length="middle"/>
+<pin name="PD7" x="-15.24" y="-30.48" length="middle"/>
+<pin name="PB0" x="-15.24" y="-35.56" length="middle"/>
+<pin name="PB1" x="15.24" y="-35.56" length="middle" rot="R180"/>
+<pin name="PB2" x="15.24" y="-30.48" length="middle" rot="R180"/>
+<pin name="PB3" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="PB4" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="PB5" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="AVCC" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="AREF" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="PC0" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="PC1" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="PC2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="PC3" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="PC4" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="PC5" x="15.24" y="30.48" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="-40.64" x2="-10.16" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="35.56" x2="-2.54" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="35.56" x2="2.54" y2="35.56" width="0.254" layer="94"/>
+<wire x1="2.54" y1="35.56" x2="10.16" y2="35.56" width="0.254" layer="94"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-40.64" x2="-10.16" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="2.54" y1="35.56" x2="-2.54" y2="35.56" width="0.254" layer="94" curve="-180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCU">
-<gates>
-<gate name="G$1" symbol="MCU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPARKFUN_PRO_MICRO">
-<connects>
-<connect gate="G$1" pin="10" pad="13"/>
-<connect gate="G$1" pin="14" pad="15"/>
-<connect gate="G$1" pin="15" pad="16"/>
-<connect gate="G$1" pin="16" pad="14"/>
-<connect gate="G$1" pin="2" pad="5"/>
-<connect gate="G$1" pin="3" pad="6"/>
-<connect gate="G$1" pin="4" pad="7"/>
-<connect gate="G$1" pin="5" pad="8"/>
-<connect gate="G$1" pin="6" pad="9"/>
-<connect gate="G$1" pin="7" pad="10"/>
-<connect gate="G$1" pin="8" pad="11"/>
-<connect gate="G$1" pin="9" pad="12"/>
-<connect gate="G$1" pin="A0" pad="17"/>
-<connect gate="G$1" pin="A1" pad="18"/>
-<connect gate="G$1" pin="A2" pad="19"/>
-<connect gate="G$1" pin="A3" pad="20"/>
-<connect gate="G$1" pin="GND1" pad="23"/>
-<connect gate="G$1" pin="GND2" pad="4"/>
-<connect gate="G$1" pin="GND3" pad="3"/>
-<connect gate="G$1" pin="RAW" pad="24"/>
-<connect gate="G$1" pin="RST" pad="22"/>
-<connect gate="G$1" pin="RX" pad="2"/>
-<connect gate="G$1" pin="TX" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="21"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37326/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="74HC238">
 <description>Demultiplexer</description>
 <gates>
@@ -498,6 +443,48 @@ SparkFun Pro Micro
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATMEGA328P">
+<gates>
+<gate name="G$1" symbol="ATMEGA328P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL28">
+<connects>
+<connect gate="G$1" pin="AREF" pad="21"/>
+<connect gate="G$1" pin="AVCC" pad="20"/>
+<connect gate="G$1" pin="GND1" pad="8"/>
+<connect gate="G$1" pin="GND2" pad="22"/>
+<connect gate="G$1" pin="PB0" pad="14"/>
+<connect gate="G$1" pin="PB1" pad="15"/>
+<connect gate="G$1" pin="PB2" pad="16"/>
+<connect gate="G$1" pin="PB3" pad="17"/>
+<connect gate="G$1" pin="PB4" pad="18"/>
+<connect gate="G$1" pin="PB5" pad="19"/>
+<connect gate="G$1" pin="PB6" pad="9"/>
+<connect gate="G$1" pin="PB7" pad="10"/>
+<connect gate="G$1" pin="PC0" pad="23"/>
+<connect gate="G$1" pin="PC1" pad="24"/>
+<connect gate="G$1" pin="PC2" pad="25"/>
+<connect gate="G$1" pin="PC3" pad="26"/>
+<connect gate="G$1" pin="PC4" pad="27"/>
+<connect gate="G$1" pin="PC5" pad="28"/>
+<connect gate="G$1" pin="PC6" pad="1"/>
+<connect gate="G$1" pin="PD0" pad="2"/>
+<connect gate="G$1" pin="PD1" pad="3"/>
+<connect gate="G$1" pin="PD2" pad="4"/>
+<connect gate="G$1" pin="PD3" pad="5"/>
+<connect gate="G$1" pin="PD4" pad="6"/>
+<connect gate="G$1" pin="PD5" pad="11"/>
+<connect gate="G$1" pin="PD6" pad="12"/>
+<connect gate="G$1" pin="PD7" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -510,7 +497,6 @@ SparkFun Pro Micro
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Flipdot" deviceset="MCU" device="" package3d_urn="urn:adsk.eagle:package:37326/1"/>
 <part name="U$2" library="Flipdot" deviceset="74HC238" device="" package3d_urn="urn:adsk.eagle:package:28986/2"/>
 <part name="U$3" library="Flipdot" deviceset="4_PIN" device=""/>
 <part name="U$5" library="Flipdot" deviceset="3_PIN" device=""/>
@@ -519,40 +505,55 @@ SparkFun Pro Micro
 <part name="U$8" library="Flipdot" deviceset="POWER" device=""/>
 <part name="U$9" library="Flipdot" deviceset="POWER" device=""/>
 <part name="U$4" library="Flipdot" deviceset="4_PIN" device=""/>
+<part name="U$10" library="Flipdot" deviceset="ATMEGA328P" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="-86.36" y="-53.34" size="1.778" layer="97">A
+
+B
+
+C</text>
+<text x="-88.9" y="5.08" size="1.778" layer="97">RA
+
+RB
+
+RC
+
+RE</text>
+<text x="-88.9" y="-35.56" size="1.778" layer="97">EA
+
+EB
+
+EC</text>
+<text x="-27.94" y="0" size="1.778" layer="97">SC
+
+SB
+
+SA</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-35.56" y="5.08" smashed="yes" rot="R270"/>
 <instance part="U$2" gate="G$1" x="20.32" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.24" y="-17.78" size="1.778" layer="94"/>
 </instance>
 <instance part="U$3" gate="G$1" x="50.8" y="5.08" smashed="yes"/>
-<instance part="U$5" gate="G$1" x="-58.42" y="7.62" smashed="yes" rot="MR0"/>
-<instance part="U$6" gate="G$1" x="-68.58" y="-7.62" smashed="yes" rot="MR0"/>
+<instance part="U$5" gate="G$1" x="-76.2" y="-48.26" smashed="yes" rot="MR0"/>
+<instance part="U$6" gate="G$1" x="-76.2" y="-30.48" smashed="yes" rot="MR0"/>
 <instance part="U$7" gate="G$1" x="30.48" y="50.8" smashed="yes"/>
 <instance part="U$8" gate="G$1" x="-71.12" y="50.8" smashed="yes" rot="R180"/>
 <instance part="U$9" gate="G$1" x="-71.12" y="71.12" smashed="yes" rot="R180"/>
-<instance part="U$4" gate="G$1" x="-10.16" y="-25.4" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="-76.2" y="12.7" smashed="yes" rot="R180"/>
+<instance part="U$10" gate="G$1" x="-45.72" y="-5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="5V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RAW"/>
-<wire x1="-22.86" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="33.02" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="E3"/>
-<wire x1="-5.08" y1="33.02" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="50.8" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-5.08" y="33.02"/>
-<label x="-17.78" y="33.02" size="1.778" layer="95"/>
 <pinref part="U$8" gate="G$1" pin="OUT"/>
 <wire x1="-66.04" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
 <label x="-40.64" y="55.88" size="1.778" layer="95"/>
@@ -561,7 +562,6 @@ SparkFun Pro Micro
 <wire x1="-30.48" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
 <wire x1="-5.08" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="33.02" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-5.08" y="50.8"/>
 </segment>
 </net>
@@ -578,10 +578,7 @@ SparkFun Pro Micro
 <junction x="5.08" y="5.08"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <junction x="2.54" y="5.08"/>
-<pinref part="U$1" gate="G$1" pin="GND1"/>
-<wire x1="2.54" y1="27.94" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
 <label x="2.54" y="25.4" size="1.778" layer="95"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
@@ -591,8 +588,7 @@ SparkFun Pro Micro
 <wire x1="-50.8" y1="71.12" x2="-50.8" y2="88.9" width="0.1524" layer="91"/>
 <label x="-58.42" y="71.12" size="1.778" layer="95"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="-66.04" y1="50.8" x2="-53.34" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="50.8" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="50.8" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="50.8" x2="-50.8" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-50.8" y="71.12"/>
 <wire x1="-50.8" y1="60.96" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
@@ -600,17 +596,8 @@ SparkFun Pro Micro
 <wire x1="20.32" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-50.8" y="60.96"/>
 <wire x1="2.54" y1="60.96" x2="-50.8" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="27.94" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
-<junction x="2.54" y="27.94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
 <junction x="2.54" y="60.96"/>
-<pinref part="U$1" gate="G$1" pin="GND2"/>
-<wire x1="-48.26" y1="17.78" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="17.78" x2="-53.34" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND3"/>
-<wire x1="-53.34" y1="22.86" x2="-48.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="22.86" x2="-53.34" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-53.34" y="22.86"/>
-<junction x="-53.34" y="50.8"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -641,98 +628,6 @@ SparkFun Pro Micro
 <wire x1="33.02" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
-<wire x1="-22.86" y1="2.54" x2="-12.7" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="2.54" x2="-12.7" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A0"/>
-<wire x1="-12.7" y1="22.86" x2="7.62" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
-<wire x1="-22.86" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A1"/>
-<wire x1="-15.24" y1="7.62" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A3"/>
-<pinref part="U$2" gate="G$1" pin="A2"/>
-<wire x1="-22.86" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="10"/>
-<wire x1="-22.86" y1="-22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="9"/>
-<wire x1="-48.26" y1="-22.86" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-22.86" x2="-53.34" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-27.94" x2="-15.24" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="8"/>
-<wire x1="-48.26" y1="-17.78" x2="-58.42" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-17.78" x2="-58.42" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-33.02" x2="-15.24" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="-53.34" y1="7.62" x2="-48.26" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="3"/>
-<pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="-53.34" y1="2.54" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="5"/>
-<wire x1="-63.5" y1="-2.54" x2="-48.26" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="6"/>
-<wire x1="-63.5" y1="-7.62" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="3"/>
-<pinref part="U$1" gate="G$1" pin="7"/>
-<wire x1="-63.5" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="10V" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="3"/>
@@ -758,13 +653,106 @@ SparkFun Pro Micro
 <label x="-45.72" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="N$12" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="-22.86" y1="-2.54" x2="-17.78" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-2.54" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PB1"/>
+<wire x1="-30.48" y1="-40.64" x2="-30.48" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-48.26" x2="-71.12" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="PB2"/>
+<wire x1="-30.48" y1="-35.56" x2="-27.94" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="3"/>
+<wire x1="-27.94" y1="-35.56" x2="-27.94" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-53.34" x2="-71.12" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="PD0"/>
+<pinref part="U$4" gate="G$1" pin="4"/>
+<wire x1="-60.96" y1="20.32" x2="-71.12" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="3"/>
+<pinref part="U$10" gate="G$1" pin="PD1"/>
+<wire x1="-71.12" y1="15.24" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="PD2"/>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="-60.96" y1="10.16" x2="-71.12" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
 <pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="-17.78" x2="-15.24" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PD3"/>
+<wire x1="-71.12" y1="5.08" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="PB0"/>
+<wire x1="-60.96" y1="-40.64" x2="-66.04" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-40.64" x2="-66.04" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="-43.18" x2="-71.12" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="PD7"/>
+<pinref part="U$6" gate="G$1" pin="3"/>
+<wire x1="-60.96" y1="-35.56" x2="-71.12" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="2"/>
+<pinref part="U$10" gate="G$1" pin="PD6"/>
+<wire x1="-71.12" y1="-30.48" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="PD5"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="-25.4" x2="-71.12" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="A0"/>
+<wire x1="7.62" y1="22.86" x2="-12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="22.86" x2="-12.7" y2="0" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PC0"/>
+<wire x1="-12.7" y1="0" x2="-30.48" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="A1"/>
+<wire x1="7.62" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PC1"/>
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="5.08" x2="-30.48" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="A2"/>
+<wire x1="7.62" y1="12.7" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="PC2"/>
+<wire x1="-22.86" y1="12.7" x2="-22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="10.16" x2="-30.48" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -773,6 +761,10 @@ SparkFun Pro Micro
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
