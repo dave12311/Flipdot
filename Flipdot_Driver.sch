@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -748,19 +748,23 @@
 <sheet>
 <description>Driver circuit</description>
 <plain>
-<text x="-20.32" y="5.08" size="1.778" layer="91">2</text>
-<text x="-20.32" y="2.54" size="1.778" layer="91">3</text>
-<text x="-20.32" y="0" size="1.778" layer="91">4</text>
-<text x="-22.86" y="7.62" size="1.778" layer="91">MCU</text>
-<text x="-55.88" y="-121.92" size="1.778" layer="91">5</text>
-<text x="-55.88" y="-124.46" size="1.778" layer="91">6</text>
-<text x="-55.88" y="-127" size="1.778" layer="91">7</text>
-<text x="-58.42" y="-119.38" size="1.778" layer="91">MCU</text>
-<text x="35.56" y="35.56" size="1.778" layer="91">8</text>
-<text x="35.56" y="33.02" size="1.778" layer="91">9</text>
-<text x="35.56" y="30.48" size="1.778" layer="91">10</text>
-<text x="33.02" y="38.1" size="1.778" layer="91">MCU</text>
-<text x="35.56" y="22.86" size="1.778" layer="91">A0</text>
+<text x="-22.86" y="-2.54" size="1.778" layer="91">A
+
+B
+
+C</text>
+<text x="35.56" y="22.86" size="1.778" layer="91">RA
+
+RB
+
+RC
+
+RE</text>
+<text x="-55.88" y="-129.54" size="1.778" layer="91">EA
+
+EB
+
+EC</text>
 </plain>
 <instances>
 <instance part="SUBSEG" gate="G$1" x="-15.24" y="-137.16" smashed="yes" rot="R270">
@@ -2409,6 +2413,10 @@
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
